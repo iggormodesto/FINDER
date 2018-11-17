@@ -1,0 +1,101 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 12vmin;
+}
+
+h1 {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  min-height: 78vh;
+}
+
+input.entrada {
+  padding: 16px 8px;
+  font-size: 16px;
+  outline: none;
+  background-color: #E78584;
+  border: none;
+  color: #5C393D;
+  border-radius: 0;
+  display: inline-block;
+  height: 40px;
+}
+
+input.entrada::placeholder {
+  color: #fff;
+}
+
+input.profissao {
+  width: 70.8%;
+}
+
+input.distancia {
+  width: 28%;
+  margin-left: 8px;
+}
+
+.List {
+  width: 100%;
+  margin: 8px 0;
+  list-style: none;
+  padding: 0;
+}
+.List > li {
+  padding: 12px 8px;
+  background-color: #F2B7BD;
+  border-bottom: 1px solid #5C393D;
+  transition: all 0.1s ease;
+}
+.List > li.is-hidden {
+  height: 0;
+  font-size: 0;
+  padding: 0;
+  border: none;
+  visibility: hidden;
+}
+.List h4 {
+  display: initial;
+}
+
+.List p {
+  margin: 4px 20px;
+}
+
+footer {
+  text-align: center;
+  background: #282c34;
+  color: #fff;
+}
+
+footer h6 {
+  padding: 1rem 0;
+  margin: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
